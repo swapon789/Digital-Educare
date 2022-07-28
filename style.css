@@ -49,3 +49,43 @@ body {
     left: 0;
     bottom: 0;
 }
+
+
+
+/* course styles */
+.course-btn {
+    width: 250px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* campus styles */
+.intro-btn button {
+    font-size: 20px;
+    font-weight: 600;
+    background: #289BDE;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .campus-text {
+        font-size: 12px !important;
+    }
+
+    .campus-details {
+        /* text-align: center; */
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .join-title {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .successjj-card {
+        text-align: center;
+    }
+
+}
